@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Posts;
+use App\Models\Post;
 
 class PostController extends Controller
 {
@@ -11,7 +11,7 @@ class PostController extends Controller
     {
         return view('posts', [
             "title" => "Blog",
-            "posts" => Posts::all()
+            "posts" => Post::all()
         ]);
     }
 
@@ -19,7 +19,7 @@ class PostController extends Controller
     {
         return view('post', [
             "title" => "Single Post",
-            "posts" => Posts::find($slug)
+            "posts" => Post::find($slug)
         ]);
     }
 }
