@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
             'slug' => 'android-mobile'
         ]);
 
-        Post::factory(6)->create();
+        Post::factory(12)->create();
 
         // Post::create([
         //     'title' => 'Web post pertama',
