@@ -1,6 +1,8 @@
 ## Belajar laravel 8 tutorial youtube dari Web Programming UNPAS
 
-Pada channel web programming unpas diajarin materi sebagai berikut : 
+Pada channel web programming unpas diajarin materi dengan studi kasus membuat blog website
+
+Materinya sebagai berikut : 
 * Strukture, Routes, View
 * Blade Templating Engine
 * Model, Collection, Controller
